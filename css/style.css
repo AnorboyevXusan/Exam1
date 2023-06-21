@@ -90,7 +90,7 @@ a {
   }
 
   .nav-hed {
-    /* display: none; */
+    display: none;
 
   }
   .nav-ul {
@@ -183,6 +183,7 @@ a {
   display: flex;
   justify-content: space-between;
   position: relative;
+  gap: 30px;
 }
 @media only screen and (max-width: 1200px) {
   .card-hed {
