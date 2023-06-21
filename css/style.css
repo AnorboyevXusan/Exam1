@@ -3,16 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Montserrat";
   transition: all 0.3s ease;
 }
+
 li {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
+
 .container {
   max-width: 1520px;
   padding: 0 50px;
@@ -22,16 +26,19 @@ a {
 .header {
   padding: 24px 0;
 }
+
 .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .burger {
   display: none;
   background: transparent;
   border: none;
 }
+
 .close {
   display: none;
   background: transparent;
@@ -46,23 +53,28 @@ a {
   letter-spacing: 0.1px;
   color: #252b42;
 }
+
 .nav-hed {
   display: flex;
   gap: 450px;
 }
+
 .nav-ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
 }
+
 .hed-a {
   color: #737373;
 }
+
 .hed-a:hover {
   color: #000000;
   transition: all 0.3s ease;
 }
+
 .bag-img-hed {
   height: 100%;
   margin-bottom: 2rem;
@@ -74,6 +86,7 @@ a {
   max-width: 700px;
   padding: 100px 60px;
 }
+
 .tex-hed h1 {
   margin-bottom: 35px;
   font-style: normal;
@@ -150,6 +163,7 @@ a {
   letter-spacing: 0.2px;
   color: #737373;
 }
+
 .hed-btn {
   margin-top: 35px;
   display: flex;
@@ -168,23 +182,27 @@ a {
   border: 1px solid #00a0c1;
   color: #00a0c1;
 }
+
 .hed-btn button:hover {
   background: #ffa62b;
   color: #fff;
   border: none;
   transition: all 0.3s ease;
 }
+
 @media only screen and (max-width: 1200px) {
   .hed-btn {
     margin-bottom: 50px;
   }
 }
+
 .card-hed {
   display: flex;
   justify-content: space-between;
   position: relative;
   gap: 30px;
 }
+
 @media only screen and (max-width: 1200px) {
   .card-hed {
     flex-flow: column;
@@ -192,12 +210,14 @@ a {
     gap: 20px;
   }
 }
+
 @media only screen and (max-width: 1200px) {
   .card-box {
     position: static !important;
     margin: 0 auto;
   }
 }
+
 .card-box {
   position: relative;
   top: 170px;
@@ -230,10 +250,12 @@ a {
   letter-spacing: 0.2px;
   color: #737373;
 }
+
 .card-box:hover p {
   color: #fff;
   transition: all 0.3s ease;
 }
+
 @media only screen and (max-widht-800px) {
 }
 
@@ -245,9 +267,11 @@ a {
 .abut {
   padding: 80px 0;
 }
+
 .abut-as {
   text-align: center;
 }
+
 .abut-as h3 {
   font-style: normal;
   font-weight: 700;
@@ -256,6 +280,7 @@ a {
   margin-bottom: 30px;
   color: #252b42;
 }
+
 .abut-as p {
   font-weight: 500;
   font-size: 14px;
@@ -264,11 +289,13 @@ a {
   letter-spacing: 0.2px;
   color: #737373;
 }
+
 .abut-cart {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
+
 @media only screen and (max-width: 1100px) {
   .abut-as h3 {
     font-size: 32px;
@@ -303,12 +330,15 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: all 0.3s ease;
 }
+
 .advice-box {
   padding-top: 80px;
 }
+
 .advice-text {
   text-align: center;
 }
+
 .advice-text h2 {
   font-weight: 700;
   font-size: 40px;
@@ -316,6 +346,7 @@ a {
   letter-spacing: 0.2px;
   color: #252b42;
 }
+
 .advice-text p {
   font-weight: 500;
   font-size: 14px;
@@ -345,6 +376,7 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
 .advice-cart {
   text-align: center;
   display: flex;
@@ -353,9 +385,11 @@ a {
   width: 230px;
   background: #ffffff;
 }
+
 .advice-cart p {
   margin-bottom: 1rem;
 }
+
 .advice-cart:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: all 0.3s ease;
@@ -364,6 +398,7 @@ a {
 .bisnes-tex {
   padding-top: 80px;
 }
+
 .bisnes-tex h2 {
   font-weight: 700;
   font-size: 40px;
@@ -373,6 +408,7 @@ a {
   color: #252b42;
   margin-bottom: 15px;
 }
+
 .bisnes-tex p {
   font-weight: 500;
   font-size: 14px;
@@ -414,9 +450,11 @@ a {
     line-height: 120% !important;
   }
 }
+
 .mostcart1 {
   position: relative;
 }
+
 .vidyo-btn {
   position: absolute;
   top: 50%;
@@ -430,10 +468,12 @@ a {
   border-radius: 50%;
   border: none;
 }
+
 .vidyo-btn img {
   position: relative;
   left: 3px;
 }
+
 .most {
   display: flex;
   justify-content: space-around;
@@ -448,9 +488,11 @@ a {
   color: #252b42;
   margin-bottom: 25px;
 }
+
 .mostcart2 p {
   margin-bottom: 25px;
 }
+
 .mostcart2 span {
   display: inline-block;
   margin-bottom: 25px;
@@ -460,6 +502,7 @@ a {
   letter-spacing: 0.1px;
   color: #252b42;
 }
+
 .section-3 {
   background-color: #fafafa;
   padding: 60px 0;
@@ -504,12 +547,14 @@ a {
   background: #16697a;
   border-radius: 2px;
 }
+
 .inp {
   padding: 25px 100px 25px 20px;
   background: #f9f9f9;
   border: none;
   border-radius: 5px 0 0 5px;
 }
+
 .smb {
   position: relative;
   right: 4px;
@@ -519,6 +564,7 @@ a {
   border: none;
   border-radius: 0px 5px 5px 0px;
 }
+
 .tex-subs {
   font-weight: 700;
   font-size: 24px;
